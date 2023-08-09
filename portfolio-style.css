@@ -1,0 +1,435 @@
+@media only screen and (min-width: 320px) and (max-width: 820px) {
+    div.navbar{
+        position: relative;
+        float: none;
+    }
+    div.navbar a{
+        width: 100%;
+        float: none;
+    }
+    h2.navbar-brand{
+        color: black;
+    }
+    img.photo{
+        position: relative;
+        height: 50%;
+    }
+    div.center{
+        height: 100px;
+    }
+    h3.hero-title{
+        margin-top: 200px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    div.hero-detail{
+        font-size: 20px;
+    }
+    div.container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    div.left-content{
+        padding-left: 32px;  
+    }
+    div.right-content{
+        position: relative;
+        display: block;
+        text-align: justify;
+        width: fit-content;
+    }
+    div.social{
+        width: 70%;
+    }
+    div.card-grid{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    div.card{
+        width: 90%;
+        border: black;
+        border: 5px solid;
+        text-align: center;
+        align-items: center;
+    }
+    div.programming-card-grid{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column; 
+        align-items: center;
+        position: relative;
+        
+    }
+    div.Programming-card{
+        position: relative;
+        width: fit-content;
+    }
+    div.project-card-grid{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    div.project-card{
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+    input[type=text] {
+        
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid;
+    }
+    div.contact-area {
+        margin: 0 30px;  
+    }
+    input[type=submit] {
+        background-color: green;
+        color: white;
+        border: none;
+        margin: 4px 2px;
+        padding: 10px 30px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    .input[type=text] {
+        padding: 2px 5px;  
+    }
+    textarea {
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid;
+    }
+    ul.list{
+        width: 60%;
+    }
+    
+}
+.navbar-brand{
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.navbar{
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    position: fixed;
+}
+.navbar a {
+    background-color: black;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+    display: block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.navbar a:hover {
+    background-color: rgb(197, 208, 197);
+    color: black;
+    transition: 0.3s;
+}
+.container1{
+    position: relatiae;
+    text-align: center;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-title{
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.hero-detail{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    background: linear-gradient(rgb(144, 78, 215), rgb(98, 199, 224));
+}
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.about-heading{
+    text-align: center;
+    display: block;
+    margin: 0;
+    font-size: 30px;
+    padding-top: 60px;
+}
+.left-content{
+    width: 40%;
+    display: block;
+    padding-left: 80px;
+}
+.right-content{
+    width: 60%;
+}
+.h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-size: medium;
+    padding: 10px 10px;
+}
+.social{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skills{
+    background-color: whitesmoke;
+}
+.skill-heading{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+}
+.card-grid{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.card{
+    width: 33%;
+    border: black;
+    border: 5px solid;
+    margin: 10px 20px;
+    text-align: center;
+}
+.card:hover{
+    background-color: rgb(93, 207, 207);
+}
+.p-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px ;
+}
+.programming-card-grid{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.Programming-card{
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    width: 25%;
+    margin: 10px 20px;
+    padding: 5px;
+    text-align: center;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.project{
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    padding: 5px;
+    margin: 50px ;
+}
+.project-heading{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    padding-top: 60px;
+    margin: 0;
+}
+.project-card-grid{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.project-card{
+    background-color: white;
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    width: 33%;
+    margin: 10px 10px;
+    padding: 5px;
+    text-align: center;
+}
+.project-description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: justify;
+    font-size: medium;
+}
+button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.p-button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.project-button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+.resume-heading{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    padding-top: 60px;
+}
+.resume{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.contact-heading {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    padding-top: 60px;
+}
+.contact-area{
+    margin: 0 300px;
+    border: 5px solid dimgrey;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+}
+input[type=submit]{
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 4px 2px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+textarea {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.container2{
+    width: 100%;
+    
+}
+.inner{
+    width: 100%;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.inner p{
+    color: white;
+    font-family: "Heebo", sans-serif;
+}
+.col{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+.follow{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+.f_title h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 0px;
+}
+.social_widget p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 10px;
+}
+.list{
+    width: 30%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.social_widget .list li a {
+    color: #cccccc;
+    font-size: 14px;
+    transition: all 300ms linear 0s;
+}
